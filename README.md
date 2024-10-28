@@ -51,8 +51,10 @@ Usage
 ## Example Usage
 
 ### Predict the price of a 65m² 2-room apartment with 1 bathroom and 1 balcony, located on the 5th floor in the "Other" category.
+```ruby
 predicted_price = predict_price('Other', 65, 2, 1, 1, 5)
 print(f"Predicted Price: {predicted_price}")
+```
 
 ## Files
 * house_offers.csv: The source dataset of apartment offers.
